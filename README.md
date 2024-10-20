@@ -3,28 +3,6 @@ Projeto PLC: Comunicação Modbus e Controle
 Descrição
 Este projeto implementa um sistema de controle baseado em PLC (Controlador Lógico Programável) utilizando Python. O sistema inclui comunicação Modbus, lógica de controle, interface gráfica (HMI), coleta de dados e visualização de dados (SCADA).
 
-
-Estrutura do Projeto
-plc_software/
-│
-├── communication/
-│   └── modbus_driver.py  # Implementação do protocolo Modbus
-│
-├── control/
-│   └── plc_controller.py  # Lógica de controle do CLP
-│
-├── hmi/
-│   └── hmi_app.py  # Interface gráfica para interação com o sistema
-│
-├── monitoring/
-│   └── data_logger.py  # Coleta e armazenamento de dados
-│
-├── scada/
-│   └── scada_dashboard.py  # Visualização de dados e relatórios
-│
-└── main.py  # Arquivo principal para rodar o software
-
-
 Funcionalidades
 Comunicação Modbus: Utiliza a biblioteca minimalmodbus para comunicação eficiente entre o PLC e dispositivos externos.
 Lógica de Controle: Implementa a lógica de controle do PLC para monitorar e controlar sensores e atuadores.
